@@ -7765,7 +7765,10 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
-
+.text-pink {
+  --bs-text-opacity: 1;
+  color: #FF7CE1;
+}
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -11319,7 +11322,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #FF7CE1;
   opacity: 1;
 }
 
@@ -11392,7 +11395,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: url("../assets/img/Canva-Design.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11415,7 +11418,7 @@ header.masthead h1, header.masthead .h1 {
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
-  }
+  }e
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
